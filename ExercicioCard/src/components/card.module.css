@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    background-color: lightblue;
+    height: 100vh;
+    width: 50%;
+    border-radius: 10px;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgCard{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    width: 150px;
+    height: 240px;
+}
+
+.DescriçaoCard{
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.btnCard{
+    padding: 6px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: 0;
+    transition: .3s;
+}
+
+.btnCard:hover {
+    cursor: pointer;
+    margin-left: .5rem;
+}
